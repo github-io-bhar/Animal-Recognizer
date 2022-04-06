@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <title>Animal Sound Identification Web App</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+      <div class="col-xs-12 text-center" id="title_div">
+        <h2>Sound Controlled Animals</h2>
+        <p>Note: Play different sounds like barking and meowing.</p>
+      </div>
+      <br><br>
+      <div class="container" id="main_div">
+        <center>
+          <button class="btn btn-danger" onclick="startClassification();" id="start_button"> START </button>
+          <h4 id="result_label">I can hear -</h4>
+          <h3 id="result_audio"></h3>
+          <br>
+          <img src="ear.png" width="400" height="400">
+        </center>
+      </div>
+      <div class="copy_right_footer">
+        Developed by - Abhyudaya Swarnim Bhargav
+      </div>
+    </body>
+</html>

@@ -1,0 +1,18 @@
+body {
+    background-color: lightgray;
+}
+
+#title_div {
+    background-color: dimgray;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-bottom: 10px;
+}
+
+#start_button {
+    margin-top: 30px;
+}
+
+#result_label, #result_audio {
+    font-family: cursive;
+}
